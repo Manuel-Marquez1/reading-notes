@@ -17,3 +17,9 @@ Now, we will turn it into a growth mindset
 
 
 # Three reminders on how to keep a Growth Mindset
+
++ Understans that you do now know things **yet** , but I will get them later.
++ Always tell yourself that _you can always improve_.
++ Always understand that failure is part of the process
+  
+  
