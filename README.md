@@ -12,7 +12,7 @@ For example: Let´s replace the following sentence...
 
 Now, we will turn it into a growth mindset
 
-`Im not bad at coding. I just do not understand it ** yet **.`
+`Im not bad at coding. I just do not understand it yet.`
 
 
 
