@@ -8,11 +8,11 @@ I like calling growth mindset - the mindset of **Yet**.
 
 For example: Let´s replace the following sentence...
 
-__ I´m bad at coding__
+`I´m bad at coding`
 
 Now, we will turn it into a growth mindset
 
-__Im not bad at coding. I just do not understand it **yet**.
+`Im not bad at coding. I just do not understand it **yet**.`
 
 
 
