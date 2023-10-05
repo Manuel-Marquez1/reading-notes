@@ -5,6 +5,7 @@ Reading Notes October 4th.
 # Introduction
 
 Hey there!
+
 My name is ManueL...
 I live in Mexico City with my dog Rex. 
 I love learning from Udemy courses (I have over 60 of them) 😩
