@@ -24,7 +24,7 @@ Here is a list of my favorite sandwishes...
 + The cucumber sandwish with cream cheese (originally from the UK)
 + The BLT
 
-# Growth Mindset in my own Words
+# Growth mindset in my own words
 
 I like calling growth mindset - the mindset of **Yet**.
 
@@ -38,7 +38,7 @@ Now, we will replace it with...
 
 
 
-# Three reminders on how to keep a Growth Mindset
+# Three reminders on how to keep a growth mindset
 
 + Understand that you do not know things **yet** , but you will get them later. 
 + Always tell yourself that _you can always improve_.
