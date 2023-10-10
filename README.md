@@ -81,7 +81,7 @@ However, one single * at the beginning and end of the word or sentence will turn
 
 On the other hand, 3 asterisks at the begining and end of a word or sentence; will turn your text into bold and italics at the same time.
 
-*** Just like this one ***
+***Just like this one***
 
 # Question 5: How do you create a link with Markdown?
 
