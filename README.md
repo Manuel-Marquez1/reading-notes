@@ -79,6 +79,10 @@ It is best practice to use the ** at the beginning and end of a word or sentence
 
 However, one single * at the beginning and end of the word or sentence will turn the text into italics.
 
+On the other hand, 3 asterisks at the begining and end of a word or sentence; will turn your text into bold and italics at the same time.
+
+*** Just like this one ***
+
 # Question 5: How do you create a link with Markdown?
 
 In order to create a link in Markdown we use the symbols [ ] and ( )
