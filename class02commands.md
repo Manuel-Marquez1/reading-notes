@@ -74,7 +74,7 @@ folder_name mkdir file_name
 - **ls projects/new-project**
 
 The first thing that is happening is that we are changing directories.
-In this case, we are accessing the **projects** directiry.
+In this case, we are accessing the **projects** directory.
 
 The second command is creating a new directory with the name **new-project**.
 
