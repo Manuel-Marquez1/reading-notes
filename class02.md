@@ -54,10 +54,14 @@ It is also known as the **The you are HERE command**.
    
 5. mkdir - This command allows us to create a new file on our computer.
 
+   
+
 ```
 folder_name mkdir file_name 
 
 ```
+
+
 6. touch - This command allows us to update access of our directories.
 
 # Can you explain what is happening in the following scenario if these commands and arguments are entered into the command line? (Arguments are extra instructions given to a command.)
@@ -67,4 +71,19 @@ mkdir new-project
 touch new-project/newfile.md
 cd ..
 ls projects/new-project
+
+The first thing that is happening is that we are changing directories.
+In this case, we are accessing the **projects** directiry.
+
+The second command is creating a new directory with the name ** new-project **.
+
+The third command is creating a new file called ** newfile.md **and the file it is being stored inside the ** new-project** directory.
+
+On the fourth command, we are asking the computer to change directories, but we wabt it to go 2 files backwards.
+
+The fifth command shows us the files that are located inside the ** new-project** directory.
+
+Inside that directory, we will find our **newfile.md** file
+
+
 
