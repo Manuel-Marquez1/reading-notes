@@ -76,13 +76,13 @@ folder_name mkdir file_name
 The first thing that is happening is that we are changing directories.
 In this case, we are accessing the **projects** directiry.
 
-The second command is creating a new directory with the name ** new-project **.
+The second command is creating a new directory with the name **new-project**.
 
 The third command is creating a new file called ** newfile.md **and the file it is being stored inside the ** new-project** directory.
 
 On the fourth command, we are asking the computer to change directories, but we wabt it to go 2 files backwards.
 
-The fifth command shows us the files that are located inside the ** new-project** directory.
+The fifth command shows us the files that are located inside the **new-project** directory.
 
 Inside that directory, we will find our **newfile.md** file.
 
