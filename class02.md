@@ -78,7 +78,7 @@ In this case, we are accessing the **projects** directiry.
 
 The second command is creating a new directory with the name **new-project**.
 
-The third command is creating a new file called ** newfile.md **and the file it is being stored inside the ** new-project** directory.
+The third command is creating a new file called **newfile.md** and the file it is being stored inside the **new-project** directory.
 
 On the fourth command, we are asking the computer to change directories, but we wabt it to go 2 files backwards.
 
