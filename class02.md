@@ -67,11 +67,11 @@ folder_name mkdir file_name
 # Can you explain what is happening in the following scenario if these commands and arguments are entered into the command line? 
 
 
-**cd projects**
-**mkdir new-project**
-**touch new-project/newfile.md**
-**cd ..**
-**ls projects/new-project**
+- **cd projects**
+- **mkdir new-project**
+- **touch new-project/newfile.md**
+- **cd ..**
+- **ls projects/new-project**
 
 The first thing that is happening is that we are changing directories.
 In this case, we are accessing the **projects** directiry.
