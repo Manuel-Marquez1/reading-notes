@@ -84,7 +84,10 @@ On the fourth command, we are asking the computer to change directories, but we 
 
 The fifth command shows us the files that are located inside the ** new-project** directory.
 
-Inside that directory, we will find our **newfile.md** file
+Inside that directory, we will find our **newfile.md** file.
+
+
+Hope this helps!!! 😊
 
 
 
