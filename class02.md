@@ -44,15 +44,21 @@ Each extenssion accompanies a certain goal...
   
 
 # What do the following commands do? 
-pwd - This is the Print Working Directory. This command lets you know exsactly which file or directory you are currently in.
+
+1. pwd - This is the Print Working Directory. This command lets you know exsactly which file or directory you are currently in.
 It is also known as the **The you are HERE command**.
-ls - This is our list command. It shows you a list of the directories that we have.
-cd - This command is very straight forward it allows us to **change directory**.
-mkdir - This command allows us to create a new file on our computer.
 
-~~~ folder_name mkdir file_name ~~~ 
+3. ls - This is our list command. It shows you a list of the directories that we have.
+   
+4. cd - This command is very straight forward it allows us to **change directory**.
+   
+5. mkdir - This command allows us to create a new file on our computer.
 
-touch - This command allows us to update access of our directories.
+```
+folder_name mkdir file_name 
+
+```
+6. touch - This command allows us to update access of our directories.
 
 # Can you explain what is happening in the following scenario if these commands and arguments are entered into the command line? (Arguments are extra instructions given to a command.)
 
