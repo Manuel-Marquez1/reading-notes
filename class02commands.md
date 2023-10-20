@@ -12,7 +12,7 @@ As developers, it is not only important to develop high-quality features.
 But it is also important to save time whenever we code.
 Emmet can not only help us build the boiler plate of our HTML files faster, but it will also allow us to build the structure of our website at a faster rate.
 
-2. Syntax highlighting
+2. Syntax highlighting 
 
 Syntax highlighting allows us to easily distinguish the different aspects of our code.
 It allows us to vizually identify...
