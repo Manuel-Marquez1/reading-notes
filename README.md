@@ -281,6 +281,8 @@ The computer executes the code from top to bottom. Unless something changes the 
 A function is a set of instructions that perform a task.
 Functions take and input and return an output, but there needs to be a relationship between  the input and the output.
 
+Functions were created with the purpose of making our code re-usable.
+
 ## Example of a function
 
 function divide_by_one (number) {
