@@ -313,6 +313,8 @@ The parenthesis are used to type our **parameters** or default values that we wa
 The parameter(s) inside the parenthesis allows us to pass data. 
 For example: Any input that the user wants us to accept. 
 
+**For example** The password to the user´s Netflix account.
+
 
 
 
