@@ -322,11 +322,11 @@ For example: Any input that the user wants us to accept.
 An expression is a mix of operators, variables, values, etc.
 However, they all evaluate to a single value.
 
-** For example:**
+**For example:**
 
-> 17 + 9
-> "Hello there!"
-> hello.length
+ + > 17 + 9
+ + > "Hello there!"
+ + > hello.length
 
 # Why would we use a loop in our code?
 
