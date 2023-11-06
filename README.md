@@ -1,4 +1,4 @@
-# My reading Journal
+# My Reading Journal
 
 Reading Notes October 4th.
 
@@ -13,15 +13,15 @@ I love learning from Udemy courses (I have over 60 of them) 😩
 In 2020, I attended college in Seattle as an international student and heard about the world of coding bootcamps.
 As I grew in my career, it became obvious that I was going to need more technical skills.
 
-In 2021, I moved back to my home country, changed my major to data science and tried to gain as many technical skills as I could.
+In 2021, I moved back to my home country, changed my major to data science, and tried to gain as many technical skills as I could.
 Nowadays, I'm an executive at a couple of nonprofits and work as a consultant.
 
 My dream is to create the very first nonprofit coding school in Mexico and serve the people of my country by providing free CS education.
 
 Here is a list of my favorite sandwiches...
 
-+ The philly
-+ The cucumber sandwish with cream cheese (originally from the UK)
++ The Philly
++ The cucumber sandwich with cream cheese (originally from the UK)
 + The BLT
 
 # Growth mindset in my own words
@@ -40,7 +40,7 @@ Now, we will replace it with...
 
 # Three reminders on how to keep a growth mindset
 
-+ Understand that you do not know things **yet** , but you will get them later. 
++ Understand that you do not know things **yet**, but you will get them later. 
 + Always tell yourself that _you can always improve_.
 + Always understand that failure is part of the process
 
@@ -65,9 +65,9 @@ For example: A software engineer uses markdown to write documentation and a data
 
 The hashtag symbol # is what we use to create headings in Markdown.
 
-One single hashtag will create the larget heading.
+One single hashtag will create the largest heading.
 
-For example: # This will create the largest heading.
+For example # This will create the largest heading.
 
 On the other hand, 6 hashtags will create the smallest heading.
 
@@ -79,7 +79,7 @@ It is best practice to use the ** at the beginning and end of a word or sentence
 
 However, one single * at the beginning and end of the word or sentence will turn the text into italics.
 
-On the other hand, 3 asterisks at the begining and end of a word or sentence; will turn your text into bold and italics at the same time.
+On the other hand, 3 asterisks at the beginning and end of a word or sentence; will turn your text into bold and italics at the same time.
 
 ***Just like this one***
 
@@ -160,12 +160,12 @@ Some popular attributes are...
 
 **id** We use id, when we want to give an alias to a line of code. Later, we use that very same id to modify the design using tools like CSS.
 
-**class** does the very same thing as **id**. However, we use class when we want to modify bigger chunks / sections of HTML.
+**class** does the very same thing as **id**. However, we use class when we want to modify bigger chunks/sections of HTML.
 
 # What is semantic HTML.
 Semantic HTML is like any other HTML boilerplate that we have seen before.
 
-However, the syntax that we find when working with semantic HTML is more straightfoward.
+However, the syntax that we find when working with semantic HTML is more straightforward.
 
 Due to the fact, that it allows us to quickly identify...
 
