@@ -10,15 +10,15 @@ My name is ManueL...
 I live in Mexico City with my dog Rex. 
 I love learning from Udemy courses (I have over 60 of them) 😩
 
-In 2020, I was attending college in Seattle as an international student and heard about the world of coding bootcamps.
-As I grew in my career, it became abvious that I was going to need more technical skills.
+In 2020, I attended college in Seattle as an international student and heard about the world of coding bootcamps.
+As I grew in my career, it became obvious that I was going to need more technical skills.
 
 In 2021, I moved back to my home country, changed my major to data science and tried to gain as many technical skills as I could.
-Nowadays, Im an executive at a couple of nonprofits and work as a consultant.
+Nowadays, I'm an executive at a couple of nonprofits and work as a consultant.
 
 My dream is to create the very first nonprofit coding school in Mexico and serve the people of my country by providing free CS education.
 
-Here is a list of my favorite sandwishes...
+Here is a list of my favorite sandwiches...
 
 + The philly
 + The cucumber sandwish with cream cheese (originally from the UK)
@@ -340,13 +340,19 @@ For loops understand booleans.
 This means, that if a condition is **True** the for loop will continue working.
 However, if at some point, the condition returns **False** the for loop will stop.
 
-The **break** statement will also stop a loop from continue executing.
+The **break** statement will also stop a loop from continuing to execute.
 
 
 # How many times will a while loop execute?
 
 A while loop will continue working as long as / **while** a condition is **True**.
 However, once a condition returns **False** or encounters a **break** statement - the loop will stop working at that point.
+
+
+# CODE-201 Reading Notes
+
+On November 6th, 2023, I started CODE-201 at Code Fellows Software Development Bootcamp.
+The reading notes for this class will be written down below.
 
 
 
