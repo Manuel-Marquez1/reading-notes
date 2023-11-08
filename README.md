@@ -1,3 +1,14 @@
+# Table of Contents
+
+1. [CODE-102 Notes](#CODE-102)
+2. [CODE-201 Notes](#CODE-201)
+
+
+## CODE-102 
+
+
+
+
 # My Reading Journal
 
 Reading Notes October 4th.
@@ -348,6 +359,10 @@ The **break** statement will also stop a loop from continuing to execute.
 A while loop will continue working as long as / **while** a condition is **True**.
 However, once a condition returns **False** or encounters a **break** statement - the loop will stop working at that point.
 
+
+## CODE-201
+
+# CODE 201 Reading notes
 
 
 
