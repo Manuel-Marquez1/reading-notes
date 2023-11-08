@@ -1,7 +1,7 @@
 # Table of Contents
 
 1. [CODE-102 Notes](#CODE-102)
-2. [CODE-201 Notes](#CODE-201)
+2. [CODE-201 Notes](#201-notes)
 
 
 ## CODE-102 
@@ -360,11 +360,7 @@ A while loop will continue working as long as / **while** a condition is **True*
 However, once a condition returns **False** or encounters a **break** statement - the loop will stop working at that point.
 
 
-## CODE-201
 
-# CODE 201 Reading notes
-
-This section of the README.md file will contain the reading notes of the class CODE-201 from the Code Fellows Software Development program.
 
 
 
