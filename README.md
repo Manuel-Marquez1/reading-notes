@@ -364,7 +364,7 @@ However, once a condition returns **False** or encounters a **break** statement 
 
 # CODE 201 Reading notes
 
-
+This section of the README.md file will contain the reading notes of the class CODE-201 from the Code Fellows Software Development program.
 
 
 
