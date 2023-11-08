@@ -4,9 +4,6 @@
 2. [CODE-201 Notes](https://github.com/Manuel-Marquez1/reading-notes/tree/main/201-notes)
 
 
-## CODE-102 
-
-
 
 
 # My Reading Journal
