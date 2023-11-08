@@ -1,1 +1,1 @@
-# Class 02 - Introduction to Web Development
+# Class 02: Introduction to Web Development
