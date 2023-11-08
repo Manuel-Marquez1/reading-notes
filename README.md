@@ -349,10 +349,6 @@ A while loop will continue working as long as / **while** a condition is **True*
 However, once a condition returns **False** or encounters a **break** statement - the loop will stop working at that point.
 
 
-# CODE-201 Reading Notes
-
-On November 6th, 2023, I started CODE-201 at Code Fellows Software Development Bootcamp.
-The reading notes for this class will be written down below.
 
 
 
