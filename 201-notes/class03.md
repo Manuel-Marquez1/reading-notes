@@ -1,1 +1,1 @@
-# Lists, The Box Model, and Loops
+# Class 03: Lists, The Box Model, and Loops
