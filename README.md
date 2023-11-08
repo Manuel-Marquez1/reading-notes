@@ -1,7 +1,7 @@
 # Table of Contents
 
 1. [CODE-102 Notes](#CODE-102)
-2. [CODE-201 Notes](#201-notes)
+2. [CODE-201 Notes](https://github.com/Manuel-Marquez1/reading-notes/tree/main/201-notes)
 
 
 ## CODE-102 
