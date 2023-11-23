@@ -1,0 +1,109 @@
+<!-- 
+  1. Create a webpage
+  2. Accept some user input
+  3. Didplay messages back to th user
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<!--Internal CSS-->
+  <style>
+    body{
+      background-color: darkgrey;
+    }
+
+    h1 {
+      background-color: white;
+      color:red;
+      display: inline-block;
+    }
+  </style>
+
+  
+<meta charset="UTF-8">
+
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+<title>Your Page Title</title>
+
+
+</head>
+<body>
+  <header role="banner">
+    <h1 role="heading">Class 01 Lab 01</h1>
+    <h2>Manuel´s Convos</h2>
+    <p>Yummy convos of food delivered to your door in 30 minutes or less.</p>
+    <nav role="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <h2 role="heading">How it works?</h2>
+    <p>We ask the following questions in order to deliver a convo of food to your door...</p>
+    <h2>Questions we ask:</h2>
+    <!--P tags go blow here.-->
+    <p style="background-color: azure;">What is your favorite soup?</p>
+    <p style="background-color: bisque;">What is your favorite sandwish?</p>
+    <p style="background-color: beige;">What drink would you like to have? water, soda, coffee, or egg nog?</p>
+    <p style="background-color: blanchedalmond;">What would you like to have as a dessert?</p>
+  </main>
+
+  <aside role="complementary">
+    <h3>Contact Us</h3>
+    <p>Order your convo of food through the app or call 555-555-5555.</p>         
+  </aside>
+
+  <footer role="contentinfo">
+    <p>&copy; 2023 Manuel´s Convos</p>
+  </footer>
+  <script>
+    //Javascript code goes here
+    let question1 = prompt("Welcome, please insert your name");
+    alert('Welcome to our restaurant ' + question1 + '!!!')
+
+    alert("Our most popular convo incudes a soup, a sandwish of your choice, a drink, and desert")
+
+    let question2 = prompt("What is your favorite soup?")
+    alert("The soup that you have chosen is: " + question2)
+    console.log("one order(s) of " + question2)
+
+    let question3 = prompt("What is your favorite sandwish?")
+    alert("the Sandwish that you have picked is: " + question3)
+    console.log("one order(s) of " + question3)
+
+    let question4 = prompt("What drink would you like to have? water, soda, coffee, or egg nog?")
+    alert("The drink that we will send you is: " + question4)
+    console.log("one order(s) of " + question4)
+    
+    let question5 = prompt("Would you like to have a slice of cheesecake or ice cream for dessert?")
+    alert("The dessert you picked is: " + question5)
+    console.log("one order(s) of " + question5)
+
+
+
+    alert("Hey, " + question1 + " your order will be delivered in 30 minutes!!!")
+
+   
+    alert("We will deliver to your door a convo with " + question2 + " soup" + ", "+question3 + " sandwish" +","+ question4 + " to drink"+  " ,and " + question5 + " for dessert." + "Thank you for placing an order with us. Have a nice day")
+
+   
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
