@@ -41,7 +41,24 @@ We can use images that do not have any copyright too OR use the **license filter
 
 
 ## Describe the Anatomy of an HTML Element
+The anatomy of an HTML element consist of mainly 2 things...
+1. An opening Tag
+2. A closing tags
 
+An opening tag + a closing tag = One element
+
+The content also goes inside the HTML element.
+In other words, the content goes inside the opening and closing tag.
+
+Something important to mention is: There are self-closing tags as well.
+
+Those self-closing tags have an opening tag but DO NOT have a closing tag.
+
+For example:
+* <link>
+* <br>
+* <img>
+* <hr>
 
 ## What is the difference between an <article> and <section> tags?
 
@@ -73,7 +90,7 @@ Once this phase has been completed, we can move tothe next stage known as **sket
 
 # Semantics
 
-## Why should you use an <h1> element over a <span> element to display a top level heading?
+## Why should you use an **<h1>** element over a **<span>** element to display a top level heading?
 
 
 ## What are the benefits of using semantic tags in our HTML?
