@@ -30,14 +30,63 @@ We can use images that do not have any copyright too OR use the **license filter
 
 ## How do you create a String vs a Number in Javascript?
 
+In order to create **numbers**, we can actually type any number (whole numbers, decimals, etc)
+
+Numbers are more of a data type. However, Javascript will assign the same data type to any number. It does not matter if the number is a decimal or a whole number.
+
+For example...
+
+```
+typeof 3.1416  //Returns a number
+```
+
+A second example
+
+```
+typeof 3  //Also returns a number
+```
+
+On the other hand, **strings** is data / characters wrapped in quotation marks and each value have an index. The index always starts at zero.
+
+```
+"This is a string" 
+```
+On a previous example...
+
+```
+let name = "Manuel";   //Manuel is information stored in a string. 
+```
+
+Strings are also important because they allow us to store any type of **characters** and easily have access to it.
 
 ## What is a variable and why they are important in Javascript?
 
+Variables are containers that store data / information.
 
+They are important because they allow us to store large amounts of data and access it, modify it, or tranform it
+
+In order to create a **variable** on javascript you can use one of the following 3 keywords.
+
+**var, const, OR let**
+
+You select one of the three keywords, give a name to the variable and assign a value to it.
+
+Last but not least, you add a semicolom at the end.
+
+For example: I will create a variable known as **name** and I will store my own name on it.
+
+```
+let name = "Manuel";
+```
 
 # Introduction to HTML
 
 ## What is an HTML attribute?
+Attributes provide additional information about HTML elements.
+
+**href** is an attribute that allows us to link elements.
+
+**src** is an attribute that specifies the path to a file.
 
 
 ## Describe the Anatomy of an HTML Element
@@ -45,7 +94,7 @@ The anatomy of an HTML element consist of mainly 2 things...
 1. An opening Tag
 2. A closing tags
 
-An opening tag + a closing tag = One element
+**An opening tag** + **a closing tag** = **One element**
 
 The content also goes inside the HTML element.
 In other words, the content goes inside the opening and closing tag.
@@ -55,10 +104,7 @@ Something important to mention is: There are self-closing tags as well.
 Those self-closing tags have an opening tag but DO NOT have a closing tag.
 
 For example:
-* <link>
-* <br>
-* <img>
-* <hr>
+<link>, <br>, <img>, and <hr>
 
 ## What is the difference between an <article> and <section> tags?
 
