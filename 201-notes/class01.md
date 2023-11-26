@@ -22,7 +22,11 @@ Once the browser has parsed the HTML file (initial file) with our CSS file - it 
 Last but no least, the browser does the same with Javascript files. The browser recognizes Js files due to the **< script >** element.
 
 ## How can you find images to add to a website?
+A good place for finding images is **Google Images**.
 
+However, something that we learned at CODE-102 is that if you are using an image - it is always better to give credit / mention where you got the image from.
+
+We can use images that do not have any copyright too OR use the **license filter** on the Tools button of our browser.
 
 ## How do you create a String vs a Number in Javascript?
 
@@ -54,6 +58,14 @@ Last but no least, the browser does the same with Javascript files. The browser 
 # Miscellaneous
 
 ## What is the first step to designing a website?
+The first step to designing a website is **planning**.
+During this phase, we ask questions like...
+
++ What is my website about?
++ What information will be presented about the subject?
++ What does my website look like?
+
+Once this phase has been completed, we can move tothe next stage known as **sketching**.
 
 
 ## What is the most important question to answer when designing a website?
@@ -69,7 +81,19 @@ Last but no least, the browser does the same with Javascript files. The browser 
 
 # What is Javascript?
 
+Javascript is a programming language that adds interactivity to our website.
+
 ## Describe 2 things that require Javascript in the browser?
 
 
 ## How can you add Javascript to an HTML document?
+In order to add a Javascript file to your HTML file, we can take the following steps...
+
+1. Create a main.js file on your code editor.
+2. Go back to to your HTML file and inside the <body> element - link the js file.
+3. In order to link the js file we will use the script tag.
+
+```
+<script src="file_name.js"><script>
+```
+4. YOU ARE DONE!!!
