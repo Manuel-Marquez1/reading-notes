@@ -104,12 +104,16 @@ Something important to mention is: There are self-closing tags as well.
 Those self-closing tags have an opening tag but DO NOT have a closing tag.
 
 For example:
-1. **<link>**
-2. **<br>**
-3. **<img>**
-4. **<hr>**
 
-## What is the difference between an <article> and <section> tags?
+```
+<link>
+<br>
+<img>
+<hr>
+```
+
+
+## What is the difference between an article and section tags?
 
 
 ## What elements does a "typical" website include?
@@ -118,7 +122,7 @@ For example:
 ## How does metadata influence Search Engine Optimization?
 
 
-## How is the <meta> HTML tag used when specifying metadata?
+## How is the meta HTML tag used when specifying metadata?
 
 
 # Miscellaneous
@@ -140,11 +144,17 @@ Once this phase has been completed, we can move tothe next stage known as **sket
 
 # Semantics
 
-## Why should you use an **<h1>** element over a **<span>** element to display a top level heading?
+## Why should you use an h1 element over a span element to display a top level heading?
 
 
 ## What are the benefits of using semantic tags in our HTML?
+There are various benefits.
 
+The first benefit is the fact that semantic HTML help search engines by providing context of the webpage.
+
+Their elements are descriptive and this allow us to have an easier time reading HTML code.
+
+They improve accesibility scores. This allows us to offer a better experience for the user.
 
 # What is Javascript?
 
