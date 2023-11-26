@@ -104,7 +104,10 @@ Something important to mention is: There are self-closing tags as well.
 Those self-closing tags have an opening tag but DO NOT have a closing tag.
 
 For example:
-<link>, <br>, <img>, and <hr>
+1. **<link>**
+2. **<br>**
+3. **<img>**
+4. **<hr>**
 
 ## What is the difference between an <article> and <section> tags?
 
@@ -121,6 +124,7 @@ For example:
 # Miscellaneous
 
 ## What is the first step to designing a website?
+
 The first step to designing a website is **planning**.
 During this phase, we ask questions like...
 
