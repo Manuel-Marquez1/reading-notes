@@ -115,15 +115,38 @@ For example:
 
 ## What is the difference between an article and section tags?
 
+The **section** tag defines the section of a document.
+
+However, the **article** tag serves as a container for all the information that you put inside it.
 
 ## What elements does a "typical" website include?
 
+Most websites include...
+
+```
+<header>
+<nav>
+<main>
+<div>
+<aside>
+<footer>
+```
+
+It is important to mention that inside **main** we can create a **section** with **articles** in it.
 
 ## How does metadata influence Search Engine Optimization?
 
+Semantic HTML uses descriptive tags. Keywords and relevant content makes your website appear more relevant when it comes to search engines.
+
+Basically, the more descriptive your website is the more appealing it becomes to search engines.
 
 ## How is the meta HTML tag used when specifying metadata?
+Metadata can be information about the author and keywords.
+It is data that describes data.
 
+It is used to to specify character set, page description, keywords, author of the documents, and viewport settings.
+
+This tag also supports **Global Attributes in HTML**.
 
 # Miscellaneous
 
@@ -141,11 +164,14 @@ Once this phase has been completed, we can move tothe next stage known as **sket
 
 ## What is the most important question to answer when designing a website?
 
+**WHAT EXACTLY DO I WANT TO ACCOMPLISH?**
 
 # Semantics
 
 ## Why should you use an h1 element over a span element to display a top level heading?
+An **h1** element will automatically set certain characteristics due to their default behavior.
 
+However, with a **span** element we will have to link out HTML file to a CSS file and style it using CSS properties.
 
 ## What are the benefits of using semantic tags in our HTML?
 There are various benefits.
@@ -161,7 +187,9 @@ They improve accesibility scores. This allows us to offer a better experience fo
 Javascript is a programming language that adds interactivity to our website.
 
 ## Describe 2 things that require Javascript in the browser?
+1. The DOM requires Javascript code to dynamically update our website and change the behaviour of our website.
 
+2. The **DOMContentLoaded** will use Javascript code to fire events.
 
 ## How can you add Javascript to an HTML document?
 In order to add a Javascript file to your HTML file, we can take the following steps...
