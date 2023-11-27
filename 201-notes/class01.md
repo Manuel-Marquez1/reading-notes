@@ -94,7 +94,7 @@ The anatomy of an HTML element consist of mainly 2 things...
 1. An opening Tag
 2. A closing tags
 
-**An opening tag** + **a closing tag** = **One element**
+**An opening tag** + **a closing tag** = **One Element**
 
 The content also goes inside the HTML element.
 In other words, the content goes inside the opening and closing tag.
