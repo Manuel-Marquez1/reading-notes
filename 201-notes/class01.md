@@ -166,7 +166,8 @@ Once this phase has been completed, we can move tothe next stage known as **sket
 
 **WHAT EXACTLY DO I WANT TO ACCOMPLISH?**
 
-# Semantics
+
+# SEMANTICS
 
 ## Why should you use an h1 element over a span element to display a top level heading?
 An **h1** element will automatically set certain characteristics due to their default behavior.
