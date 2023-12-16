@@ -275,3 +275,7 @@ if (cake == tasty){
 && is the **AND** operator and || is the **OR** operator.
 
 && will execute multiple conditions. On the other hand, || will execute one OR the other one.
+
+# Things I want to know more about
+
+1. I ant to know more about box properties & the box model.
