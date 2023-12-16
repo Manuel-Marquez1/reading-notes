@@ -3,8 +3,46 @@
 # Notes from Class 03
 You can turn the career assingments until the last day of class. Just make sure that you submit them at the end.
 
+In class we also had a code review.
 
+We also reviewed the "use strict" line of code.
 
+As well as concepts such as **alert()** and use of **string template literal**.
+
+**Functions:** A way to execute statements.
+
+**Objects** A function is an object. Pretty much everything in Javascript is an object.
+
+**.loLowerCase()** this method stores the data in lowercase even if the informattion provided was in uppercase.
+
+We learned about **control floww**. However, we will later learn about how to respond to events and the usage of the DOM.
+
+We learned about how to code **increments / score keepers**.
+
+At the beginning of the class, we also have a good example on how to clone Github repos.
+
+# Course Outline
+
++ Control Flow and Box Model
++ Code demo
++ Arrays and Loops
++ The box model
++ Lab prep
+
+# Arrays
+
+They are another **Datatype & Data Structure**.
+Their data type is an **Object**.
+They are a collection / list of elements.
+You can store numbers, strings, lists, etc all in the same array.
+You do not have to determine the size of your array upon creation.
+They are indexed based. Every element has a position.
+
+```javascript
+//                0         1        2      3
+let myArray = ["Hello", "goodbye", "hi", "bye"];
+```
+Lecture stopped at 1h 2 min
 
 
 
@@ -25,6 +63,8 @@ You can turn the career assingments until the last day of class. Just make sure 
 # Learn HTML
 
 1. When should you use unordered lists in your HTML document?
+
+You should use **unordered lists** when the order does not matter. For example, when we are mentioning random information like names of differents bands, colors, dog breeds, etc.
 
 2. How do you change the bullet style of unordered list items?
 
