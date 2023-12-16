@@ -155,3 +155,125 @@ if(!true){
 ```
 
 //Lab starts at 1hour and 53 minutes.
+
+# Read Class 02: Basics of HTML, CSS, & Javascript
+
+
+
+## Q1: Why is it important to use semantic elements in our HTML?
+It is important to use semantic HTML so that the browser knows how to display content correctly. It is also known that semantic HTML improves SEO and accessibility.
+
+## Q2: How many levels of headings are there in HTML?
+There are six levels of headings in HTML. It starts with H1 and it ends with H6.
+
+
+## Q3: What are some uses for the **<sup>** and **<sub>** elements 
+We will use **superscript** and **subscript** when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning. 
+
+**For Example**
+
+```
+<p>Jimmy´s birthday is on the 3<sup>th</sup> of January.<p>
+
+```
+
+The <sup> tag will raise the **th** and will put it on top of the number 3.
+
+
+## Q4: When using the **<abbr>** elements, what attribute must be added to provide the full expansion of the term?
+
+
+# Learn CSS
+
+## What are ways we can apply CSS to our HTML?
+The are **Two ways** of applying CSS to an HTML element.
+
+The first method is to create an external CSS file using the **.CSS** extenssion and linking that to your HTML file.
+
+TRhe second method is by using the **<style>** tag on your HTML file and writing all the CSS code inside that tag.
+
+However, it is way better to use the first method.
+
+## Why should we avoid using inline styles?
+We should avoid using inline styles because it degrades performance as the page size increases.
+
+## Review the block of code below and answer the following questions:
+
+```
+ h2 {
+     color: black;
+     padding: 5px;
+   }
+```
+
+## What is representing the selector?
+
+In this case the **h2** represents the selector.
+The selector is the **HTML code** that we want to style.
+
+## Which components are the CSS declarations?
+The declaration is the **property** + the **value**.
+
+In this case, **color** is the **property** and **black** is the value and togethr they form a CSS declaration.
+
+## Which components are considered properties?
+
+1. Color
+2. Font
+3. Box Properties
+4. Positioning
+5. Annimation
+
+
+
+# Learn Javascript
+
+## What data type is a sequence of text enclosed in single quote marks?
+A **string** data type.
+
+## List 4 types of JavaScript operators.
+1. A ddition operator +
+2. Assingment Operator =
+3. Addition Assingment Operator +=
+4. Logical Operator &&, ||, or !
+
+
+## Describe a real world Problem you could solve with a Function.
+Let´s say that we are collecting payments from customers. We can write a program that will notify us with the message **Payment Received** everytime a customer submits a payment.
+
+However, this is a very repetitive task.
+
+Therefore, we can insert our program inside a function. That way, the function will be called and the code will be executed everytime our company receives a payment from a customer.,
+
+
+## An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+If a statement checks a TRUE statement and evaluates to TRUE, the code block will be executed.
+
+## What is the use of an else if?
+If statements are executed only if a condition is met.
+
+In the example below, the phrase **Awsome dessert** will only be displayed ONLY if the dessert is tasty. If our dessert is not tasty, the message will not be displayed.
+
+**For Example:**
+```
+
+cake = tasty;
+
+if (cake == tasty){
+  console.log("Awsome dessert")
+}
+```
+
+## List 3 different types of comparison operators.
+
+1. !== NOT EQUALS Operator
+2. > Greater than Operator
+3. < Less than Operator
+4. >= Greater than or equals to Operator
+
+
+## What is the difference between the logical operator && and ||?
+
+&& is the **AND** operator and || is the **OR** operator.
+
+&& will execute multiple conditions. On the other hand, || will execute one OR the other one.
