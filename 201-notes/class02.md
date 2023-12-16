@@ -176,8 +176,7 @@ We will use **superscript** and **subscript** when marking up items like dates, 
 <p>Jimmy´s birthday is on the 3<sup>th</sup> of January.<p>
 
 ```
-
-The <sup> tag will raise the **th** and will put it on top of the number 3.
+The   <sup>   tag will raise the **th** and will put it on top of the number 3.
 
 
 ## Q4: When using the **<abbr>** elements, what attribute must be added to provide the full expansion of the term?
@@ -256,7 +255,6 @@ In the example below, the phrase **Awsome dessert** will only be displayed ONLY 
 
 **For Example:**
 ```
-
 cake = tasty;
 
 if (cake == tasty){
@@ -267,9 +265,9 @@ if (cake == tasty){
 ## List 3 different types of comparison operators.
 
 1. !== NOT EQUALS Operator
-2. > Greater than Operator
+2. **>** Greater than Operator
 3. < Less than Operator
-4. >= Greater than or equals to Operator
+4. **>=** Greater than or equals to Operator
 
 
 ## What is the difference between the logical operator && and ||?
