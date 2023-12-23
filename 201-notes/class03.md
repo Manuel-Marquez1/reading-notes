@@ -42,20 +42,179 @@ They are indexed based. Every element has a position.
 //                0         1        2      3
 let myArray = ["Hello", "goodbye", "hi", "bye"];
 ```
-Lecture stopped at 1h 2 min
+
+# Array Methods
+
+You can also chain up orattached methods on an array.
+
+## Method Number 1 .push()
+It adds an elements to the end of the array.
+
+## Method Number 1 .pop()
+This method will remove the last element of the array.
+
+# Array Properties
+A property is what makes an array a thing.
+
+.length  <-- This will tell us how many elements are in an array / the size of it.
+
+# EXERCISE
+
+```javascript
+`use strict`;
+
+let nums = [3,5,7,9,11];
+
+//When printing the contents of an array use the following console
+// console.table(nums); <-- Helpful when you need to see the index
+//Remember that an array is like a matrix
+
+
+let mixed = [`hello`, true, [1,2,3]];
+
+
+```
+
+# Referencing elements inside an array with Bracket notation
+
+
+```javascript
+
+`use strict`;
+
+let mixed = [`hello`, true, [1,2,3]];
+
+// Reference OR grab the boolean value
+
+let myBoolValue = mixed[1]  // Our input is 1 because that is the index of that boolean
+console.log(myBoolValue)  //true  <-- Boom!!! we just referenced our boolean
+
+//We are NOT removing anything we re just creating a copy
 
 
 
+```
+
+Note to self: Practice grabbing elements from nested arrays.
+
+## We can also assign or add elements on the array
+
+```javascript
+
+`use strict`;
+
+let students = [`Jesse`, `Gerald`, `Jennifer`];
+
+// Let´s assign values based on Index
+
+students[3] = `John`;
+
+console.log(students)
+
+//Output: `Jesse`, `Gerald`, `Jennifer`, `John,
+
+```
+
+# Typical use case for adding to an Array
+
+Do the **Push Method**.
+
+Remember **Push** will add to the end of the array.
+
+```javascript
+
+`use strict`;
+
+let students = [`Jesse`, `Gerald`, `Jennifer`];
+
+students.push("Cooper");
+students.push("Jimmy");
+students.push("Manuel");
+
+```
+
+# The length property
+It tells you the size of the array.
+
+console.log(students.length); // It will tell us the size of the array
+This method will also count empty spots
+
+## Example of when an array is used.
+
+If a user of a to-do list wants to add new items.
+The data can be stored in an array and you can use the push method to add items at the very end of the list.
+
+# Removing from an Array .pop() Method
+We will use the **.pop() method** to remove the last element from the array.
+
+Recomendation: store the .pop() method on a variable so you can use it later.
 
 
+```javascript
+
+`use strict`;
+
+let delete = students.pop();
+console.log(delete);
+
+```
+
+# Loops
+loops xecute code over and over again until we tell them to stop.
+
+We will talk about 2 loops - for loops and while loops.
 
 
+### For loops
+
+- We use it to execute code a certain number of times.
+- It is also great for looping over an array. because arrays have sizes and for that we use the length property.
+
+```javascript
 
 
+// Anatomy of a for loop
+
+for(starting value; condition; increment / decrement){
+    //code block will run only if the condition is true
+    // The code will stop running once the condition is no longer true
+}
+```
+
+### While loops
+
+- Executes code until the condition that is given is no longer true
+- Beware of infinite loops
+
+```javascript
 
 
+// Anatomy of a while loop
+
+while(condition){
+    //code will run until the condition is no longer true
+}
+```
 
 
+### For loop example
+
+```javascript
+
+`use strict`;
+
+let nums = [1,2,3,4,5];
+
+for(let i= 0; i < nums.length; i++){
+  console.log(nums[i])
+
+}
+
+// i=0 is the index where the loop will start
+// i reffers to the index value / element
+// i < nums.length as long as the array nums is less than the length of the array nums - the condition will be set.
+// i++ will move to the next index / It adds one to i / we increment it by 1.
+```
 
 
 # Read Class 03
@@ -67,6 +226,29 @@ Lecture stopped at 1h 2 min
 You should use **unordered lists** when the order does not matter. For example, when we are mentioning random information like names of differents bands, colors, dog breeds, etc.
 
 2. How do you change the bullet style of unordered list items?
+
+Whwnever we are working with unordered list itesm, it is very likely that the list items will be nested on the **ul** tag.
+
+The code could look something like this...
+
+```html
+<ul>
+  <li>Banana</li>
+  <li>Apple</li>
+</ul>
+```
+Notice how on the code block above, the list items are wrapped by the **ul** tag.
+
+However, we will now create the same list but with an **ordered style**. We will achieve this by changing the **ul** tag into an ordered list tag **ol**.
+
+```html
+<ol>
+  <li>Banana</li>
+  <li>Apple</li>
+</ol>
+```
+The **ol** tag will give us a numbered / ordered list now instead of giving us random bullet points.
+
 
 3. When should you use an ordered list vs an unorder list in your HTML document?
 
@@ -90,7 +272,7 @@ You should use **unordered lists** when the order does not matter. For example, 
 
 4. Read the code below and evaluate the last expression and explain what the result would be and why.
 
-```
+```javascript
  let a = 10;
  let b = 'dog';
  let c = false;
