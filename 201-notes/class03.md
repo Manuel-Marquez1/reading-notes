@@ -264,9 +264,18 @@ The **ol** tag will give us a numbered / ordered list now instead of giving us r
 
 1. What data types can you store inside of an Array?
 
+Any type of data can be stored in an array. We cann store Numbers, strings, even other arrays (nested arrays).
+
 2. Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
 
+```javascript
+
  const people = [['pete', 32, 'librarian', null], ['Smith', 40, 'accountant', 'fishing:hiking:rock_climbing'], ['bill', null, 'artist', null]];
+
+ ```
+ Yes, this still a valid array. This array it is stored in a variable called people which is also an object.
+
+ We can access those values using bracket notation. It is important to notice that we can access those elements because each **nested array** has an **index value**.
 
 3. List five shorthand operators for assignment in javascript and describe what they do.
 
@@ -284,5 +293,53 @@ The **ol** tag will give us a numbered / ordered list now instead of giving us r
 
 5. Describe a real world example of when a conditional statement should be used in a JavaScript program.
 
+Let´s say that you are on Facebook (Meta) or Reddit and you want to like a picture or a post.
+However, if you have not created an account with these apps before, a message will pop up asking you to register or sign-in.
+
+So instead of being able to like a picture or a post - the app will instead encourage you to sign-in or create an account.
+
+
+### Example 1
+
+```javascript
+realUserAccount = True
+notUser = False
+
+if(realUserAccount == True){
+  console.log("You are a real user! Please explore our platform");
+  else{
+    alert("please sing-in");
+  }
+
+}
+
+```
+
+
+
 6. Give an example of when a Loop is useful in JavaScript.
 
+Using the previous example, let´s say that you are not a user of Reddit and you tried to like a picture but Reddit sends you an alert / pop-up asking you so sign up.
+
+Once you create an account, we want to display a message that says "Welcome to Reddit". However, we also want the icons of many baloons to be displayed.
+
+The code could look something like this...
+
+### Example 2
+
+```javascript
+realUserAccount = True;
+notUser = False;
+welcome_Message = ["Welcome!!! 🎈"];
+
+if(realUserAccount == True){
+  console.log("You are a real user! Please explore our platform");
+  else{
+    for(let i = 0; welcome_Message[0]; i++){
+      console.log(welcome_Message * 2000) //This line wil display the welcome message with the emoji 2000 times everytime a new user signsup.
+    }
+  }
+
+}
+
+```
