@@ -386,15 +386,14 @@ The code could look something like this...
 ### Example 2
 
 ```javascript
-realUserAccount = True;
-notUser = False;
+realUserAccount = 1;
 welcome_Message = ["Welcome!!! 🎈"];
 
-if(realUserAccount == True){
+if(realUserAccount){
   console.log("You are a real user! Please explore our platform");
   else{
-    for(let i = 0; welcome_Message[0]; i++){
-      console.log(welcome_Message * 2000) //This line wil display the welcome message with the emoji 2000 times everytime a new user signsup.
+    for(let i = 0; i < 2000; i++){    // Welcome message is displayed 2000 times
+      console.log(welcome_Message) 
     }
   }
 
