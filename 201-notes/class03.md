@@ -252,13 +252,56 @@ The **ol** tag will give us a numbered / ordered list now instead of giving us r
 
 3. When should you use an ordered list vs an unorder list in your HTML document?
 
+We will use an **ordered list** whenever the order of a sequence is important.
+For example: We will use an ordered list whenever we are adding recepies to our website.
+Or instructions / step-by-step manuals of products.
+
+On the other hand, we will use an **unordered list** whenever we dont have to worry about the order of something.
+
+For example, whenever you are dealing with nominal data like the number of players in a soccer field, a random list of lottery tickets , or even a random list of the appartments that are available for rent in a building.
+
+
+
 4. Describe two ways you can change the numbers on list items provided by an ordered list?
+
+If you want of doing this is by using the CSS property
+> list-style-type
+
+The following code will change the ordered list into an unordered list by converting the numbers into bullet points.
+
+```CSS
+ol {
+  list-style-type: disc;
+}
+
+```
+
+The second way is by changing the **ol** HTML tag into a **ul** HTML tag.
+
 
 # Learn CSS
 
 1. Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”?
 
+In football, the players spend most of the time controlling the inside of the court.
+
+However, the coach of the team, spends most of the time on the outside of the court.
+
+Every NFL court, contains a logo in the middle of the court.
+
+The padding is what sorrounds that logo and the players only control the center or the sorroundings of the logo.
+
+On the other hand, the margin is the space where the coach of the team is located. He has control of that space between the court and the seats where the fans are located.
+
 2. List and describe the four parts of an HTML elements box as referred to by the box model.
+
++  **Content:** This is the part that contains text, images, and other message or data that we want to display.
+
++  **Padding:** It is the space between the content and the border of the box. It is an invicible space but it adds space to the content of the box.
+
++  **Border:**  It is a visible line that outlines the element. It is the visible boundarie of the element.
+
++  **Margin:**  It is the lement that controls the spacing outside of each element. However, it does not control the element.
 
 # Learn Javascript
 
@@ -279,7 +322,18 @@ Any type of data can be stored in an array. We cann store Numbers, strings, even
 
 3. List five shorthand operators for assignment in javascript and describe what they do.
 
+- **Addition Operator (+=):** Adds the value of a variable and assigns the result back to the vaeriable.
+
+- **Substraction Operator (-=):** Subtracts the value of the variable and assigns the result back to the variable.
+
+- **Multiplication Assingment Operator (-=):** Multiplies the value of the variable and assigns the result back to the variable.
+
+- **Divition Assingment Operator (-=):** Divides the value of the variable and assigns the result back to the variable.
+
+- **Exponentiation Assingment Operator (-=):** Takes the value of a variable and raises the value to the chosen exponent
+
 4. Read the code below and evaluate the last expression and explain what the result would be and why.
+
 
 ```javascript
  let a = 10;
@@ -289,7 +343,11 @@ Any type of data can be stored in an array. We cann store Numbers, strings, even
  // evaluate this
  (a + c) + b;
 ```
+### Answer
 
+The result is **10dog** because **a** has a positive value of 10.
+The boolean **false** has a numeric value of 0.
+**'dog'** is inserted besides 10 because javascript is contantinating the values.
 
 5. Describe a real world example of when a conditional statement should be used in a JavaScript program.
 
