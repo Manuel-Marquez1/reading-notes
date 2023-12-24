@@ -401,3 +401,9 @@ if(realUserAccount == True){
 }
 
 ```
+
+# Things I want to know more about
+
+1. How to maniputale arrays with bracket notation.
+2. How to be more efficient when writing for loops and coditional statements.
+3. Learn more array methods
